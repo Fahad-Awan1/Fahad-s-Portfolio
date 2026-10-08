@@ -1,0 +1,62 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Home",
+    "kind": "section"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Drive your way",
+    "kind": "section"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "The fleet",
+    "kind": "section"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "Trip mood picker",
+    "kind": "section"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Booking in four steps",
+    "kind": "section"
+  },
+  {
+    "file": "05.webp",
+    "small": "05-720.webp",
+    "label": "Drivia in numbers",
+    "kind": "section"
+  },
+  {
+    "file": "06.webp",
+    "small": "06-720.webp",
+    "label": "Reviews",
+    "kind": "section"
+  },
+  {
+    "file": "07.webp",
+    "small": "07-720.webp",
+    "label": "Fleet page",
+    "kind": "page"
+  },
+  {
+    "file": "08.webp",
+    "small": "08-720.webp",
+    "label": "Locations page",
+    "kind": "page"
+  },
+  {
+    "file": "09.webp",
+    "small": "09-720.webp",
+    "label": "Pricing page",
+    "kind": "page"
+  }
+]
