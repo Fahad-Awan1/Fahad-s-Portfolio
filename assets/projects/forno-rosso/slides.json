@@ -1,0 +1,50 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Home",
+    "kind": "page"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Menu page",
+    "kind": "page"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "Our dough, one pizza at a time",
+    "kind": "section"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "The Classics",
+    "kind": "section"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Pizze Bianche",
+    "kind": "section"
+  },
+  {
+    "file": "05.webp",
+    "small": "05-720.webp",
+    "label": "Our Kitchen page",
+    "kind": "page"
+  },
+  {
+    "file": "06.webp",
+    "small": "06-720.webp",
+    "label": "Experiences page",
+    "kind": "page"
+  },
+  {
+    "file": "07.webp",
+    "small": "07-720.webp",
+    "label": "About page",
+    "kind": "page"
+  }
+]
