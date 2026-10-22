@@ -1,0 +1,44 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Store dashboard",
+    "kind": "screen"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Analytics",
+    "kind": "screen"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "Sales & orders",
+    "kind": "screen"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "Returns",
+    "kind": "screen"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Stock levels",
+    "kind": "screen"
+  },
+  {
+    "file": "05.webp",
+    "small": "05-720.webp",
+    "label": "Suppliers",
+    "kind": "screen"
+  },
+  {
+    "file": "06.webp",
+    "small": "06-720.webp",
+    "label": "Customers",
+    "kind": "screen"
+  }
+]

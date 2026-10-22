@@ -1,0 +1,44 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Overview",
+    "kind": "screen"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Orders & kitchen board",
+    "kind": "screen"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "Menu & margins",
+    "kind": "screen"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "Tables & floor plan",
+    "kind": "screen"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Staff & shifts",
+    "kind": "screen"
+  },
+  {
+    "file": "05.webp",
+    "small": "05-720.webp",
+    "label": "Inventory & purchasing",
+    "kind": "screen"
+  },
+  {
+    "file": "06.webp",
+    "small": "06-720.webp",
+    "label": "Reports",
+    "kind": "screen"
+  }
+]

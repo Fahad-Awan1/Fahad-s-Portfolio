@@ -1,0 +1,32 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Hospital overview",
+    "kind": "screen"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Analytics",
+    "kind": "screen"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "Billing & claims",
+    "kind": "screen"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "Pharmacy",
+    "kind": "screen"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Calendar & doctors on duty",
+    "kind": "screen"
+  }
+]

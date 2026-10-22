@@ -594,6 +594,11 @@ button{font:inherit;color:inherit;background:none}
 .footerIcons{gap:10px!important}
 .footerIcons a:after{display:none}
 
+/* ---------- Home: ERP & Dashboards (two-column cards) ---------- */
+.projectGrid.twoCol{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 32px}
+.erpWork + .selectedWork{border-top:1px solid #deded9}
+@media (max-width:767px){.projectGrid.twoCol{grid-template-columns:minmax(0,1fr);gap:52px}}
+
 /* ---------- Projects page hero: fanned screenshot stack ---------- */
 .heroSplit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;column-gap:clamp(24px,4vw,72px)}
 .heroStack{position:relative;aspect-ratio:5/4;width:100%;max-width:640px;justify-self:end}
