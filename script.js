@@ -487,8 +487,17 @@ const SITE = {
           io.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    // threshold 0 (+ bottom margin): reveal once the top edge is well into view. A ratio
+    // threshold could never be reached by blocks taller than ~8 screens (e.g. the projects grid on phones).
+    }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
     revealables.forEach((el) => io.observe(el));
+    // Safety net: at the very bottom of the page, show anything the bottom margin kept hidden
+    const atBottom = () => {
+      if (innerHeight + scrollY < document.documentElement.scrollHeight - 4) return;
+      document.querySelectorAll('[data-reveal]:not([data-revealed])').forEach((el) => { el.setAttribute('data-revealed', ''); io.unobserve(el); });
+      removeEventListener('scroll', atBottom);
+    };
+    addEventListener('scroll', atBottom, { passive: true });
   } else {
     revealables.forEach((el) => el.setAttribute('data-revealed', ''));
   }
