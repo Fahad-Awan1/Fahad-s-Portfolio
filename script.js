@@ -2,7 +2,7 @@
 const SITE = {
   name: 'Fahad',
   email: 'fahadriazcs@gmail.com',
-  whatsapp: { label: '+92 317 0740383', number: '923170740383' },
+  whatsapp: { label: '+44 7460 671890', number: '447460671890' },
   linkedin: 'fahad-riaz-b52359282',
   // EmailJS (free): paste your IDs from emailjs.com. Leave empty to fall back to FormSubmit.
   emailjs: {
