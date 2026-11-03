@@ -596,7 +596,7 @@ button{font:inherit;color:inherit;background:none}
 
 /* ---------- Home: ERP & Dashboards (two-column cards) ---------- */
 .projectGrid.twoCol{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 32px}
-.erpWork + .selectedWork{border-top:1px solid #deded9}
+.selectedWork + .erpWork{border-top:1px solid #deded9}
 @media (max-width:767px){.projectGrid.twoCol{grid-template-columns:minmax(0,1fr);gap:52px}}
 
 /* ---------- Projects page hero: fanned screenshot stack ---------- */
