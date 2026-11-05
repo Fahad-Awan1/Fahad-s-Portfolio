@@ -1,0 +1,50 @@
+[
+  {
+    "file": "00.webp",
+    "small": "00-720.webp",
+    "label": "Home hero",
+    "kind": "section"
+  },
+  {
+    "file": "01.webp",
+    "small": "01-720.webp",
+    "label": "Featured products",
+    "kind": "section"
+  },
+  {
+    "file": "02.webp",
+    "small": "02-720.webp",
+    "label": "Shop showcase",
+    "kind": "section"
+  },
+  {
+    "file": "03.webp",
+    "small": "03-720.webp",
+    "label": "Shop all products",
+    "kind": "page"
+  },
+  {
+    "file": "04.webp",
+    "small": "04-720.webp",
+    "label": "Product page",
+    "kind": "page"
+  },
+  {
+    "file": "05.webp",
+    "small": "05-720.webp",
+    "label": "About",
+    "kind": "page"
+  },
+  {
+    "file": "06.webp",
+    "small": "06-720.webp",
+    "label": "Articles",
+    "kind": "page"
+  },
+  {
+    "file": "07.webp",
+    "small": "07-720.webp",
+    "label": "Contact",
+    "kind": "page"
+  }
+]

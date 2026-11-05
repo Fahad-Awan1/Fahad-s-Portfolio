@@ -421,6 +421,17 @@ const SITE = {
       ph.style.setProperty('--dur', `${Math.min(14, Math.max(4, (travel / Math.max(1, frameH)) * 1.25)).toFixed(2)}s`);
     };
     const loadPhone = (ph, done) => {
+      if (ph.dataset.video) {
+        // Real recording of the live site (animations included) instead of a static scroll
+        if (!ph._vid) {
+          const v = document.createElement('video');
+          v.className = 'phoneVideo'; v.muted = true; v.loop = true; v.playsInline = true;
+          v.setAttribute('aria-hidden', 'true'); v.preload = 'auto'; v.src = ph.dataset.video;
+          ph.append(v); ph._vid = v;
+        }
+        const pr = ph._vid.play(); if (pr && pr.catch) pr.catch(() => {});
+        done(); return;
+      }
       if (ph._full) { if (ph._full.complete && ph._full.naturalWidth) done(); return; }
       const img = new Image();
       img.className = 'phoneFull'; img.alt = ''; img.decoding = 'async';
@@ -435,6 +446,7 @@ const SITE = {
         const start = () => loadPhone(ph, () => measurePhone(ph));
         card.addEventListener('pointerenter', start);
         card.addEventListener('focusin', start);
+        card.addEventListener('pointerleave', () => { if (ph._vid) ph._vid.pause(); });
       });
     }
     onEnter([...document.querySelectorAll('.showcasePhone[data-full]')], (ph) => loadPhone(ph, () => { measurePhone(ph); ph.classList.add('loop'); }), { threshold: 0.3 });
